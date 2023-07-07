@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,400;1,500&display=swap');
+*{
+padding: 0px;
+margin: 0 auto;
+}
+
+body{
+background-color: #f6eae0;
+}
+
+.contaner{
+width: 1141px;
+}
+
+
+.nav {
+width: 100%;
+height: 83px;
+background-color: #1f3a3c;
+
+}
+.menu{
+
+}
+.menu img {
+margin-top: 18px;
+float: left;
+}
+
+.button button  {
+width: 160px;
+height: 46px;
+background-color: #ecd1a6;
+text-decoration: none;
+color: black;
+margin-top:18.5px;
+border: none;
+margin-left: 840px;
+
+}
+
+.button  button:hover {
+background-color: #d88e18;
+color: rgb(223, 217, 217);
+transition: 1s all;
+}
+
+
+/* sec-1 */
+.sec_1 {
+background-color: #f6eae0;
+margin-bottom: 60px;
+}
+.box {
+display: flex;
+
+}
+
+.box img {
+margin-right: 550px;
+}
+
+.contant {
+width: 590px;
+height: 436px;
+background-color:  rgb(239, 216, 183, 0.5);
+    position: absolute;
+    margin-left: 470px;
+margin-top: 100px;
+}
+
+.contant h1 {
+font-family: 'Playfair Display', serif;
+font-size: 45px;
+font-weight: 900;
+color:#1e3638 ;
+padding-left: 90px;
+padding-top: 65px;
+}
+
+.contant p {
+width: 380px;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+color:black ;
+padding-left: -30px;
+padding-top: 20px;
+}
+
+.Sec_button button  {
+width: 160px;
+height: 46px;
+background-color: #1f3a3c;
+text-decoration: none;
+color: white;
+margin-top:39px;
+border: none;
+margin-left: 90px;
+
+
+}
+
+.Sec_button button:hover {
+background-color: #255558;
+color:  rgb(239, 216, 183, 0.5);
+transition: 1s all;
+}
+
+.box .lyer6 img{
+margin-top: 46px;
+margin-left: 940px;
+}
+.lyer7 img{
+margin-left: 20px;
+margin-top: -50px;
+}
+/* sec_2 */
+
+.sec_2 {
+width: 100%;
+height: 500px;
+background-image: url(img/sec_2.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.contaner_2{
+width: 760px;
+}
+.contaner_2 h2 {
+font-size: 30px;
+font-weight: 300;
+padding-top: 50px;
+padding-bottom: 40px;
+color: white;
+}
+
+.contaner_2 p {
+font-family: 'Playfair Display', serif;
+font-size: 22px;
+font-style: italic;
+line-height: 30px;
+color: white;
+}
+/* sec-3 */
+.sec_3 {
+background-color: #f6eae0;
+margin-top: 90px;
+}
+.box_3 {
+display: flex;
+
+}
+
+.box_3 img {
+margin-left: 530px;
+}
+
+.contant_3 {
+width: 590px;
+height: 436px;
+background-color:  rgb(239, 216, 183, 0.5);
+    position: absolute;
+    margin-left: 73px;
+margin-top: 100px;
+}
+
+.contant_3 h1 {
+font-family: 'Playfair Display', serif;
+font-size: 40px;
+font-weight: 900;
+color:#1e3638 ;
+padding-left: 90px;
+padding-top: 65px;
+}
+
+.contant_3 p {
+width: 380px;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+color:black ;
+padding-top: 20px;
+}
+.p1 {
+margin-left: -30px;
+}
+.p2{
+margin-right: 30px;
+}
+
+
+.contant_3 .lyer6 img {
+position: absolute;
+margin-left: -70px;
+
+}
+/* sec-4 */
+
+.sec_4 {
+background-color: #f6eae0;
+margin-top: 90px;
+margin-bottom: 60px;
+}
+.box_4 {
+display: flex;
+
+}
+
+.box_4 img {
+margin-right: 550px;
+}
+
+.contant_4 {
+width: 590px;
+height: 436px;
+background-color:  rgb(239, 216, 183, 0.5);
+    position: absolute;
+    margin-left: 470px;
+margin-top: 100px;
+}
+
+.contant_4 h1 {
+font-family: 'Playfair Display', serif;
+font-size: 45px;
+font-weight: 900;
+color:#1e3638 ;
+padding-left: 90px;
+padding-top: 65px;
+}
+
+.contant_4 p {
+width: 380px;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+color:black ;
+padding-left: -30px;
+padding-top: 20px;
+}
+
+.lyer6 img {
+
+position: absolute;
+margin-left: 550px;
+margin-top: -50px;
+
+}
+
+
+
+/* sec_5 */
+
+.sec_5 {
+width: 100%;
+height: 845px;
+background-image: url(img/sec_5.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.contaner_5{
+width: 760px;
+text-align: center;
+}
+.contaner_5 h2 {
+font-size: 40px;
+font-weight: 300;
+padding-top: 50px;
+padding-bottom: 40px;
+color: white;
+}
+
+.contaner_5 p {
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+line-height: 30px;
+white-space: 8;
+color: white;
+
+}
+
+
+
+.boxes {
+color: white;
+display: flex;
+}
+
+.first {
+border: 1px white solid;
+padding: 50px 135px;
+margin-top: 30px;
+transform: scale(1);
+}
+
+.first:hover{
+   transform: scale(1.1);
+   transition: 1s all;
+}
+
+/* sec-6 */
+
+
+
+.contaner_5 h2 {
+font-family: 'Playfair Display', serif;
+padding-top: 80px;
+
+}
+.boxes {
+margin-top: 25px;
+}
+.first h3 {
+font-family: 'Poppins', sans-serif;
+text-transform: uppercase;
+margin-bottom: 40px;
+margin-left:-70px ;
+
+
+}
+
+.first p {
+font-family: 'Poppins', sans-serif;
+margin-left:-40px ;
+line-height: 35px;
+
+}
+
+
+.sec_6_con {
+display: flex;
+margin-top: 80px;
+}
+.contant_6 {
+margin-left: 70px;
+}
+.contant_6 h3 {
+font-family: 'Poppins', sans-serif;  
+}
+
+.contant_6 h4 {
+font-family: 'Playfair Display', serif;
+font-size: 30px ;
+font-weight: 500;
+font-style: italic;
+margin-top: 35px;
+margin-bottom: 35px;
+color: #1f3a3d;
+
+}
+
+.contant_6 {
+font-family: 'Poppins', sans-serif;  
+font-size: large ;
+font-style: normal;
+
+}
+
+
+.contant_7 {
+margin-top: 50px;
+margin-bottom: 50px;
+    text-align: center;
+    width: 720px;
+}
+
+.contant_7 h2{
+font-family: 'Playfair Display', serif;
+font-size: xx-large ;
+font-weight: 800;
+font-style: italic;
+margin-top: 40px;
+margin-bottom: 30px;
+color: #1f3a3c;
+}
+
+.contant_7 p {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+line-height: 30px;
+white-space: 8;
+color: black;
+}
+
+.footer {
+        width: 100%;
+        height: 83px;
+        background-color: #1f3a3c;
+        color: white;
+        text-align:center;
+        
+}
+
+.footer p {
+    padding-top: 30px;
+    font-size: x-large;
+}
+
+
+.first .p i {
+    margin: 0 10px 0 0;
+}
+
+ .p2 i {
+    margin: 0 10px 0 0;
+}
+
+.p1 i {
+    margin: 0 10px 0 0;
+}
+
+.margin1 p {
+    margin-left: -70px;
+}
+
+.margin2 p {
+    margin-left: -70px;
+}
+
+
+
+@media screen and (max-width : 700px) {
+    .contaner{
+        width: 600px;
+    }
+.nav{
+    background-color: #d88e18;
+    width: 100%;
+}
+.sec_1{
+    
+}
+    
+}
